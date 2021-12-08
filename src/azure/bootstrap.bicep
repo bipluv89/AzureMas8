@@ -39,7 +39,7 @@ param storageNamePrefix string
 //create dns zone
 module dnsZone 'dns.bicep' = {
   name: 'DnsConfig'
-  scope: resourceGroup('Domain')
+  scope: resourceGroup('rg-mas862')
   params: {
     domainName: domainName
   }

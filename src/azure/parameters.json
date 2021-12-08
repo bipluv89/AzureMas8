@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "eastus"
+            "value": "australiaeast"
         },
         "baseDomainResourceGroup": {
-            "value": "Domain"
+            "value": "rg-mas"
         },
         "networkInterfaceName": {
             "value": "bootstrapVM595"
